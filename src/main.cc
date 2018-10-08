@@ -14,9 +14,9 @@ using std::cout;
 using std::endl;
 
 void main(int argc, char *argv) {
-    int64_t a = 15;
-    int64_t b = 1;
-    int64_t c = 66;
+    int a = 15;
+    int b = 1;
+    int c = 66;
 
     sort(a, b, c);
     cout << "a: " << a << "b: " << b << "c: " << c << endl;

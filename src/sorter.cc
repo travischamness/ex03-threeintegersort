@@ -4,8 +4,8 @@ namespace edu {
         namespace vc {
             namespace csv13 {
 
-                void sort(int64_t a, int b, int c) {//no return
-                    int array[] = (&a, &b, &c);
+                void sort(int &a, int &b, int &c) {//no return
+                    int array[] = (a, b, c);
                     for (int i = 0; i <= 2; i++) {
                         int j = i;
                         if (array[j] >= array[j - 1]) {
