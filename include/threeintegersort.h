@@ -1,13 +1,13 @@
-#ifndef EX03_THREEINTEGERSORT_THREEINTEGERSORT_H
-#define EX03_THREEINTEGERSORT_THREEINTEGERSORT_H
+#ifndef THREEINTEGERSORT_H
+#define THREEINTEGERSORT_H
 namespace edu {
     namespace vcccd {
         namespace vc {
             namespace csv13 {
-                void sort(int &a, int &b, int &c);
+                void sort(int a, int b, int c);
             }
         }
     }
 }
-#endif //EX03_THREEINTEGERSORT_THREEINTEGERSORT_H
+#endif
 
