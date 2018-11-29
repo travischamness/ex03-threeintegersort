@@ -13,12 +13,12 @@ using edu::vcccd::vc::csv13::sort;
 using std::cout;
 using std::endl;
 
-void main(int argc, char *argv) {
+int main(int argc, char *argv[]) {
     int a = 15;
     int b = 1;
     int c = 66;
 
     sort(a, b, c);
-    cout << "a: " << a << "b: " << b << "c: " << c << endl;
-
+    cout << "a: " << a << " b: " << b << " c: " << c << endl;
+    return 0;
 }

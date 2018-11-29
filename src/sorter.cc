@@ -6,9 +6,9 @@ namespace edu {
             namespace csv13 {
 
                 void sort(int &a, int &b, int &c) {//Address's for swapping later.
-                    int array[] = (a, b, c);
+                    int array[3] = {a, b, c};
                     int hold; //swapping mechanism
-                    int j, i; //variables to iterate with and compare.
+                    //int j, i = 0; //variables to iterate with and compare.
                     for (int i = 0; i < 2; i++) { //O(n) iterative step ensures each variable is tested and secured the value in ascending order
                        for(int j = 1; j < 3; j++){ //O(n(Square)) iterative step does superficial swapping
                            if(array[i] > array[j]){ //swapping method utilizing holder
